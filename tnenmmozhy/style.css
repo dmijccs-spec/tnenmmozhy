@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 90vh;
+  background: linear-gradient(rgba(255, 105, 135, 0.5), rgba(255, 182, 193, 0.5)),
+    url('./img/back.jpg') center/cover no-repeat;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.carousel-inner img {
+    height: 500px; /* adjust height */
+    object-fit: cover;
+}
+/* Section Headings */
+h2 {
+  letter-spacing: 1px;
+}
+
+/* Cards */
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s ease;
+}
+
+/* Contact Form */
+form {
+  border: 2px solid #f8d7da;
+}
+
+/* Footer */
+footer {
+  font-size: 15px;
+}
+.social-icons a:hover {
+  color: #ffd700; /* gold color on hover */
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #ffd700; /* gold on hover */
+  transition: 0.3s;
+}
+footer i {
+  color: #fff;
+}
+#branches .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+#branches .card-title {
+  color: #dc3545; /* Bootstrap danger color */
+}
+#branches i {
+  color: #dc3545;
+}
